@@ -47,6 +47,39 @@ SQL was used to generate the following tables:
 - **SQL Feature Engineering:** Generated insights by manipulating health records with SQL queries, resulting in five different tables representing various aspects of the data.
 - **Excel Dashboard:** Visualized SQL results by creating charts and graphs in Excel for better understanding of OCD trends and patterns.
 - **Power BI Interactive Dashboard:** Built a comprehensive dashboard with filters and visualizations, enabling stakeholders to explore the data interactively.
+
+## Tables
+
+| Compulsion Type | Patient Count | Obsession Score |
+| :-------- | :------- | :------------------------- |
+ | Praying | 258 | 20.2|
+ |Ordering|  258 |20.33|
+ |Checking|  278 |20.13|
+ |Counting|  291 |20.62|
+ |Washing|   308 |19.52|
+
+ | Obsession Type | Patient Count | Obsession Score |
+| :-------- | :------- | :------------------------- |
+ | Hoarding | 258 | 21.08|
+ | Symmetry |  263 |19.70|
+ | Religious |  280 |19.25|
+ | Contaminatoin |  285 |20.01|
+ | Harm-related |   307 |20.69|
+
+
+| Ethnicity | Patient Count | Obsession Score |
+| :-------- | :------- | :------------------------- |
+ | African | 300 | 19.81|
+ | Hispanic |  359 |20.26|
+ | Asian |  360 |20.37|
+ | Caucasian |  374 |20.10|
+
+
+ Gender | Patient Count | Obsession Score |
+| :-------- | :------- | :------------------------- |
+ | Female | 690 | 20.35|
+ | Male |  703 |19.95|
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/Jinendra-Gambhir/Health-Analytics-for-OCD-Analysis/blob/main/Images/PowerBI_Image.png)
