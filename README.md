@@ -3,7 +3,13 @@
 
 This project demonstrates the use of data analysis tools like SQL, Excel, and Power BI to derive actionable insights from a dataset containing health records of OCD (Obsessive-Compulsive Disorder) patients. By utilizing SQL for data manipulation and feature engineering, and Excel and Power BI for visualizing results, we have produced valuable insights into the distribution of patients by gender, ethnicity, and diagnosis time frame. The goal is to make the findings easily consumable by stakeholders through interactive visualizations.
 
+## Project Purpose
+The purpose of this project was to analyze real-world health data focusing on Obsessive-Compulsive Disorder (OCD) to derive insights that can assist healthcare professionals and researchers in understanding key trends related to OCD patients. By using data analysis tools like SQL, Power BI, and Excel, the project aimed to:
 
+* Explore patterns in OCD diagnoses by gender, ethnicity, and obsession/compulsion types.
+* Identify trends in OCD diagnosis rates over time.
+* Provide stakeholders with visual, data-driven insights for better decision-making in treatment planning or further research.
+  
 ## Tech Stack
 
 * SQL (MySQL Workbench) - For database management, feature engineering, and querying.
@@ -42,11 +48,6 @@ SQL was used to generate the following tables:
 
 - Data was exported into CSV format using SQL queries.
 - Excel and Power BI were then used to visualize these results, creating dashboards that allow stakeholders to explore the data interactively.
-## Features
-
-- **SQL Feature Engineering:** Generated insights by manipulating health records with SQL queries, resulting in five different tables representing various aspects of the data.
-- **Excel Dashboard:** Visualized SQL results by creating charts and graphs in Excel for better understanding of OCD trends and patterns.
-- **Power BI Interactive Dashboard:** Built a comprehensive dashboard with filters and visualizations, enabling stakeholders to explore the data interactively.
 
 ## Tables
 
@@ -80,6 +81,12 @@ SQL was used to generate the following tables:
  | Female | 690 | 20.35|
  | Male |  703 |19.95|
 
+## Features
+
+- **SQL Feature Engineering:** Generated insights by manipulating health records with SQL queries, resulting in five different tables representing various aspects of the data.
+- **Excel Dashboard:** Visualized SQL results by creating charts and graphs in Excel for better understanding of OCD trends and patterns.
+- **Power BI Interactive Dashboard:** Built a comprehensive dashboard with filters and visualizations, enabling stakeholders to explore the data interactively.
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/Jinendra-Gambhir/Health-Analytics-for-OCD-Analysis/blob/main/Images/PowerBI_Image.png)
@@ -100,6 +107,16 @@ SQL was used to generate the following tables:
 - Query 5: Most common compulsion type and the respective obsession score.
 
 These SQL queries can be modified to further analyze trends and discover additional insights within the dataset.
+
+# Outcome
+Upon completion of this project, I gained a comprehensive understanding of how to:
+
+1. Manipulate and analyze data using SQL, including performing feature engineering and running complex queries.
+2. Visualize data in a way that is easily digestible for non-technical stakeholders, using Power BI and Excel to create interactive dashboards.
+3. Identify important trends and patterns in health data, such as:
+    - Gender and ethnicity distribution of OCD patients.
+    - Common obsession and compulsion types.
+    - Trends in OCD diagnoses over time.
 
 ## Authors
 
